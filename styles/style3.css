@@ -302,7 +302,7 @@
     position: absolute;
     
   }
-#modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
+  #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
     width: 50px;
     padding: 10px;
