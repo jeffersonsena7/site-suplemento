@@ -79,8 +79,8 @@
     text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
   }
   select.whey{
-    padding: 10px;
-    margin-top: 10px;
+    padding: 8px;
+    margin-top: 2px;
 
   }
   .whey{
@@ -106,7 +106,7 @@
     padding: 6px 10px ;
     border: #00d9ff solid 8px;
     border-radius: 16px;
-    margin-left: 20px;
+    margin-left: 24px;
     
 
     box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
@@ -211,7 +211,7 @@
     background-color: #31202b;
     width: 100%;
     padding: 0px;
-    height: 26.5vh;    
+    height: 27vh;    
     justify-content: center;
     position: fixed;
     top: 425px;
@@ -383,7 +383,7 @@
     padding: 6px 10px ;
     border: #00d9ff solid 8px;
     border-radius: 16px;
-    margin-left: 20px;
+    margin-left: 24px;
     margin-top: 0px;
 
     box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
@@ -485,7 +485,7 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 30vh;
 
   }
   footer p{
