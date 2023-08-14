@@ -1,5 +1,5 @@
 /*para celular media*/
-@media screen and (min-width: 320px) and (max-width: 680px) {
+@media screen and (max-width: 680px) {
   *{
     padding: 0px;
     margin: 0px;
