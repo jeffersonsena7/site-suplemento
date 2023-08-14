@@ -1,5 +1,5 @@
 /*para celular media*/
-@media screen and (min-width: 360px) and (max-width: 680px) {
+@media screen and (max-width: 580px) {
   *{
     padding: 0px;
     margin: 0px;
@@ -172,7 +172,7 @@
 
 /* para tablet*/
 
-@media screen and (min-width:680px) and (max-width:920px) {
+@media screen and (min-width:580px) and (max-width:920px) {
   *{
     padding: 0px;
     margin: 0px;

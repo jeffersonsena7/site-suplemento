@@ -1,5 +1,5 @@
 /*para celular media*/
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 580px) {
   *{
     padding: 0px;
     margin: 0px;
@@ -198,9 +198,7 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    position: fixed;
-    top: 470px;
-
+    margin-top: 100px;
   }
   footer p{
     display: flex;
@@ -262,7 +260,7 @@
 
 /* para tablet*/
 
-@media screen and (min-width:680px) and (max-width:920px) {
+@media screen and (min-width:580px) and (max-width:920px) {
   *{
     padding: 0px;
     margin: 0px;
@@ -270,7 +268,7 @@
   }
 
   body{
-    background-color: #fff;
+    background-color: #808080c4;
   }
   h1{
     text-align: center;
@@ -468,8 +466,7 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    position: fixed;
-    top: 470px;
+    margin-top: 100px;
 
   }
   footer p{
@@ -541,7 +538,7 @@
   }
 
   body{
-    background-color: #808080c4;
+    background-color: #fff;
   }
   h1{
     text-align: center;
@@ -737,8 +734,7 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    position: fixed;
-    top: 470px;
+    margin-top: 100px;
 
   }
   footer p{
