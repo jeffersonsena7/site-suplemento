@@ -1,0 +1,861 @@
+/*para celular media*/
+@media screen and (min-width: 460px) and (max-width: 680px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    
+    background-color: #808080c4;
+  }
+  h1{
+    text-align: center;
+    font-size: 2em;
+  }
+  #suplemento{
+    position: relative;
+    z-index: -2;
+    padding-top: 28px;
+    width: 100%;
+    height: 160px;
+    
+  }
+  div p{
+    background-color: #fff;
+    padding: 10px;
+  }
+  #itens{
+    display: none;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #burgue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .material-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 0.1;
+    color: #202020;
+  }
+  .lin:hover{
+    color: #00d9ff; 
+    box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+    text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
+  }
+  .but{
+  background: flex;
+  width: 100px;
+  outline: none;
+  padding: 8px 0px 8px 0px;
+  margin: 3px;
+  border-radius: 20px;
+  list-style: none;
+  cursor: pointer;
+
+  transition: box-shadow 0.1;
+  color: #202020;
+  border: 4px solid #202020;
+  }
+  .but:hover{
+    border: 4px solid #00d9ff; 
+    color: #00d9ff; 
+    box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+    text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
+  }
+  } 
+  .whey{
+    display: flex;
+    width: 16.4vw;
+    padding: 0px;
+    margin-left: 2px;
+    text-align: center;
+    top: 20px;
+  }
+  .neon2{
+    font-size: 20px;
+    font-weight: 700px;
+    text-decoration: none;
+    background: #202020;
+    display: inline-block;
+    color: #00d9ff;
+    padding: 6px 10px ;
+    border: #00d9ff solid 8px;
+    border-radius: 16px;
+    margin-left: 20px;
+
+    box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
+    text-shadow: 0px 0px 8px hsl(0, 0%, 100% / 0.3), 0px 0px 32px;
+
+    position: relative;
+    bottom: 20px;
+    
+  }
+  /*Reflexo do botão */
+  .neon2::before{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    background: #00d9ff;
+
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  .neon2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #00d9ff;
+    opacity: 0;
+    background-color: #00d9ff;
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+
+  .neon2:hover::before, 
+  .neon2:hover::after{
+    opacity: 1;
+  }
+
+  .neon2:hover{
+    color: #31202b;
+    background: #00d9ff;
+    text-shadow: none;
+  }
+
+  
+  #lista{
+    display: none;
+    width: 100px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  .borda{
+    position: relative;
+    width: 95%;
+    height: 50px;
+    color: #fff;
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    top: 15px;
+    left: 14px;
+  }
+  .borda::before, .borda::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 32px);
+    height: calc(100% + 32px);
+    background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
+    #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
+    background-size: 300%;
+    border-radius: 8px;
+    animation: AnimarBorda 8s linear infinite;
+  }
+  button{
+    display: none;
+  }
+  section{
+    display: none;
+  }
+  article{
+    display: none;
+  }
+  aside{
+    display: none;
+  }
+  footer{
+    background-color: #31202b;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 470px;
+
+  }
+  footer p{
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    padding-top: 50px;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  
+  #logo{
+    display: flex;
+    position: absolute;
+    
+  }
+#modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
+    display: fixed;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+  }
+  #modeloLogo1:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo2:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo3:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo4:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo5:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+
+
+/*crianndo a animação*/
+@keyframes AnimarBorda {
+  0%{
+    background-position: 0;
+  }
+  100%{
+    background-position: 300%;
+  }
+}
+
+.borda::after{
+  filter: blur(50px);
+}
+
+/* para tablet*/
+
+@media screen and (min-width:680px) and (max-width:920px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #fff;
+  }
+  h1{
+    text-align: center;
+    font-size: 3em;
+  }
+  #suplemento{
+    position: relative;
+    z-index: -7;
+    padding-top: 28px;
+    width: 60vw;
+    height: 250px;
+    
+  }
+  div p{
+    background-color: #fff;
+    padding: 10px;
+  }
+  ul{
+    display: flex;
+  }
+  #itens{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #burgue{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .material-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 0.1;
+    color: #202020;
+  }
+  .lin:hover{
+    color: #00d9ff; 
+    box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+    text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
+  }
+  .but.lin:nth-last-of-type(1){
+    
+  }
+  .but{
+  background: flex;
+  width: 100px;
+  outline: none;
+  padding: 8px 0px 8px 0px;
+  margin: 3px;
+  border-radius: 20px;
+  list-style: none;
+  cursor: pointer;
+
+  transition: box-shadow 0.1;
+  color: #202020;
+  border: 4px solid #202020;
+  }
+  .but:hover{
+    border: 4px solid #00d9ff; 
+    color: #00d9ff; 
+    box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+    text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
+  }
+  } 
+  .whey{
+    font-size: 2.2vw;
+    display: flex;
+    width: 16.4vw;
+    padding: 0px;
+    margin-left: 2px;
+    text-align: center;
+    top: 20px;
+    
+  }
+  .neon2{
+    font-size: 20px;
+    font-weight: 700px;
+    text-decoration: none;
+    background: #202020;
+    display: inline-block;
+    color: #00d9ff;
+    padding: 6px 10px ;
+    border: #00d9ff solid 8px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-top: 0px;
+
+    box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
+    text-shadow: 0px 0px 8px hsl(0, 0%, 100% / 0.3), 0px 0px 32px;
+
+    position: relative;
+    bottom: 20px;
+    
+  }
+  /*Reflexo do botão */
+  .neon2::before{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    background: #00d9ff;
+
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  .neon2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #00d9ff;
+    opacity: 0;
+    background-color: #00d9ff;
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+
+  .neon2:hover::before, 
+  .neon2:hover::after{
+    opacity: 1;
+  }
+
+  .neon2:hover{
+    color: #31202b;
+    background: #00d9ff;
+    text-shadow: none;
+  }
+  #lista{
+    display: none;
+    width: 100px;
+    
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  .borda{
+    position: relative;
+    width: 97%;
+    height: 50px;
+    color: #fff;
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    top: 15px;
+    left: 14px;
+  }
+  .borda::before, .borda::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 32px);
+    height: calc(100% + 32px);
+    background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
+    #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
+    background-size: 300%;
+    border-radius: 8px;
+    animation: AnimarBorda 8s linear infinite;
+  }
+  button{
+    display: none;
+  }
+  section{
+    display: none;
+  }
+  article{
+    display: none;
+  }
+  aside{
+    display: none;
+  }
+  footer{
+    background-color: #31202b;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 470px;
+
+  }
+  footer p{
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    padding-top: 50px;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  
+  #logo{
+    display: flex;
+    position: absolute;
+    
+  }
+#modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
+    display: fixed;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+  }
+  #modeloLogo1:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo2:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo3:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo4:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo5:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+
+
+/*crianndo a animação*/
+@keyframes AnimarBorda {
+  0%{
+    background-position: 0;
+  }
+  100%{
+    background-position: 300%;
+  }
+}
+
+.borda::after{
+  filter: blur(50px);
+}
+
+  
+/*para computador*/
+
+@media screen and (min-width:920px) and (max-width:1900px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #808080c4;
+  }
+  h1{
+    text-align: center;
+    font-size: 3em;
+  }
+  #suplemento{
+    position: relative;
+    z-index: -7;
+    padding-top: 28px;
+    width: 100vw;
+    height: 250px;
+    
+  }
+  div p{
+    background-color: #fff;
+    padding: 10px;
+  }
+  ul{
+    display: flex;
+  }
+  #itens{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #burgue{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .material-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 0.1;
+    color: #202020;
+  }
+  .lin:hover{
+    color: #00d9ff; 
+    box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+    text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
+  }
+  .but.lin:nth-last-of-type(1){
+    
+  }
+  .but{
+  background: flex;
+  width: 100px;
+  outline: none;
+  padding: 8px 0px 8px 0px;
+  margin: 3px;
+  border-radius: 20px;
+  list-style: none;
+  cursor: pointer;
+
+  transition: box-shadow 0.1;
+  color: #202020;
+  border: 4px solid #202020;
+  }
+  .but:hover{
+    border: 4px solid #00d9ff; 
+    color: #00d9ff; 
+    box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+    text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
+  }
+  } 
+  .whey{
+    display: flex;
+    width: 16.4vw;
+    padding: 0px;
+    margin-left: 2px;
+    text-align: center;
+    top: 20px;
+    
+  }
+  .neon2{
+    font-size: 20px;
+    font-weight: 700px;
+    text-decoration: none;
+    background: #202020;
+    display: inline-block;
+    color: #00d9ff;
+    padding: 6px 10px ;
+    border: #00d9ff solid 8px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-top: 0px;
+
+    box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
+    text-shadow: 0px 0px 8px hsl(0, 0%, 100% / 0.3), 0px 0px 32px;
+
+    position: relative;
+    bottom: 20px;
+    
+  }
+  /*Reflexo do botão */
+  .neon2::before{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    background: #00d9ff;
+
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  .neon2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #00d9ff;
+    opacity: 0;
+    background-color: #00d9ff;
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+
+  .neon2:hover::before, 
+  .neon2:hover::after{
+    opacity: 1;
+  }
+
+  .neon2:hover{
+    color: #31202b;
+    background: #00d9ff;
+    text-shadow: none;
+  }
+  #lista{
+    display: none;
+    width: 100px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  .borda{
+    position: relative;
+    width: 97%;
+    height: 50px;
+    color: #fff;
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    top: 15px;
+    left: 14px;
+  }
+  .borda::before, .borda::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 32px);
+    height: calc(100% + 32px);
+    background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
+    #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
+    background-size: 300%;
+    border-radius: 8px;
+    animation: AnimarBorda 8s linear infinite;
+  }
+  button{
+    display: none;
+  }
+  section{
+    display: none;
+  }
+  article{
+    display: none;
+  }
+  aside{
+    display: none;
+  }
+  footer{
+    background-color: #31202b;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 470px;
+
+  }
+  footer p{
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    padding-top: 50px;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  
+  #logo{
+    display: flex;
+    position: absolute;
+    
+  }
+#modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
+    display: fixed;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+  }
+  #modeloLogo1:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo2:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo3:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo4:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+  #modeloLogo5:hover{
+    bottom: 20px;
+    padding: 1px;
+  }
+
+
+/*crianndo a animação*/
+@keyframes AnimarBorda {
+  0%{
+    background-position: 0;
+  }
+  100%{
+    background-position: 300%;
+  }
+}
+
+.borda::after{
+  filter: blur(50px);
+}
+
+
+/*configurando o botão*/
+  /*.neon{
+    font-size: 64px;
+    font-weight: 700px;
+    text-decoration: none;
+
+    display: inline-block;
+    color: #f1b;
+    padding: 16px 64px;
+    border: #f1b solid 8px;
+    border-radius: 16px;
+
+    box-shadow: inset 0px 0px 32px #f1b, 0px 0px 32px #f1b;
+    text-shadow: 0px 0px 8px hsl(0, 0%, 100% / 0.3), 0px 0px 32px;
+
+    position: relative;
+  }*/
+  /*Reflexo do botão */
+  /*.neon::before{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    background: #f1b;
+
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  .neon::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #f1b;
+    opacity: 0;
+    background-color: #f1b;
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+
+  .neon:hover::before, 
+  .neon:hover::after{
+    opacity: 1;
+  }
+
+  .neon:hover{
+    color: #31202b;
+    background: #f1b;
+    text-shadow: none;
+  }*/
