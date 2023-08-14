@@ -80,8 +80,8 @@
   }
   select.whey{
     padding: 10px;
-    margin-top: 100px;
-    position: relative;
+    margin-top: 10px;
+
   }
   .whey{
     display: flex;
@@ -114,7 +114,7 @@
 
     position: relative;
     bottom: 20px;
-    left: 100px;
+    left: 85px;
   }
   /*Reflexo do botão */
   .neon2::before{
@@ -210,8 +210,8 @@
     display: flex;
     background-color: #31202b;
     width: 100%;
-    padding: 30px;
-    
+    padding: 0px;
+    height: 26.5vh;    
     justify-content: center;
     position: fixed;
     top: 425px;
@@ -220,7 +220,6 @@
     display: flex;
     justify-content: end;
     align-self: flex-end;
-    padding-top: 50px;
     font-size: 25vw;
     color: #fff;
   }
@@ -234,7 +233,8 @@
   #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
     width: 50px;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 0px;
     border-radius: 50%;
     position: relative;
   }
@@ -276,7 +276,7 @@
 
 /* para tablet*/
 
-@media screen and (min-width:580px) and (max-width:920px) {
+@media screen and (min-width:581px) and (max-width:920px) {
   *{
     padding: 0px;
     margin: 0px;
@@ -294,8 +294,8 @@
     position: relative;
     z-index: -7;
     padding-top: 28px;
-    width: 60vw;
-    height: 250px;
+    width: 50vw;
+    height: 38vh;
     
   }
   div p{
@@ -370,6 +370,8 @@
     top: 20px;
     
   }
+   
+     
   .neon2{
     font-size: 20px;
     font-weight: 700px;
@@ -433,7 +435,7 @@
     text-shadow: none;
   }
   #lista{
-    display: none;
+    display: flex;
     width: 100px;
     
     padding-bottom: 10px;
