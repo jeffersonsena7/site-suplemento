@@ -25,6 +25,7 @@
   div p{
     background-color: #fff;
     padding: 10px;
+    width: 4vw;
   }
   #itens{
     display: none;
@@ -77,7 +78,11 @@
     box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
     text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
   }
-  } 
+  select.whey{
+    padding: 10px;
+    margin-top: 100px;
+    position: relative;
+  }
   .whey{
     display: flex;
     width: 16.4vw;
@@ -85,12 +90,13 @@
     margin-left: 2px;
     text-align: center;
     top: 20px;
+    
   }
   button.neon2{
+    position: relative;
     margin-top: 40px;
   }
   .neon2{
-    
     font-size: 20px;
     font-weight: 700px;
     text-decoration: none;
@@ -101,13 +107,14 @@
     border: #00d9ff solid 8px;
     border-radius: 16px;
     margin-left: 20px;
+    
 
     box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
     text-shadow: 0px 0px 8px hsl(0, 0%, 100% / 0.3), 0px 0px 32px;
 
     position: relative;
     bottom: 20px;
-    
+    left: 100px;
   }
   /*Reflexo do botão */
   .neon2::before{
@@ -159,9 +166,12 @@
     padding-bottom: 10px;
     border-radius: 10px;
   }
+  div.borda{
+    width: 92vw;
+  }
   .borda{
     position: relative;
-    width: 95%;
+    width: 96%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -176,8 +186,8 @@
     content: "";
     position: absolute;
     z-index: -1;
-    width: calc(100% + 32px);
-    height: calc(100% + 32px);
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
     background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
     #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
     background-size: 300%;
@@ -203,14 +213,15 @@
     padding: 30px;
     
     justify-content: center;
-    margin-top: 100px;
+    position: fixed;
+    top: 425px;
   }
   footer p{
     display: flex;
     justify-content: end;
     align-self: flex-end;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 25vw;
     color: #fff;
   }
 
@@ -247,7 +258,7 @@
     bottom: 20px;
     padding: 1px;
   }
-
+}
 
 /*crianndo a animação*/
 @keyframes AnimarBorda {
