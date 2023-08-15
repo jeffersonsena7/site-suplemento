@@ -102,6 +102,94 @@
     border-radius: 8px;
     animation: AnimarBorda 8s linear infinite;
   }
+  button.neon2{
+    position: relative;
+    margin-top: 40px;
+  }
+  #neon2_whey{
+    display: inline;
+  }
+  #neon2_cre{
+    display: inline;
+    padding: 6px 27px 6px 27px;
+  }
+  #neon2_pre{
+    display: inline;
+    padding: 6px 25px 6px 25px;
+  }
+  #neon2_hip{
+    display: inline;
+  }
+  .neon2{
+    font-size: 15px;
+    font-weight: 700px;
+    text-decoration: none;
+    background: #202020;
+    display: inline-block;
+    color: #00d9ff;
+    padding: 6px 10px ;
+    border: #00d9ff solid 8px;
+    border-radius: 16px;
+    
+    
+
+    box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
+    text-shadow: 0px 0px 8px hsl(0, 0%, 100% / 0.3), 0px 0px 32px;
+
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+  }
+  /*Reflexo do botão */
+  .neon2::before{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    background: #00d9ff;
+
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  .neon2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #00d9ff;
+    opacity: 0;
+    background-color: #00d9ff;
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+
+  .neon2:hover::before, 
+  .neon2:hover::after{
+    opacity: 1;
+  }
+
+  .neon2:hover{
+    color: #31202b;
+    background: #00d9ff;
+    text-shadow: none;
+  }
+  iframe{
+    
+    padding: 0px;
+    width: 100vw;
+    height: 1000vh;
+    margin-left: 0px;
+    margin-bottom: 300px;
+  }
   footer{
     background-color: #31202b;
     width: 100%;
