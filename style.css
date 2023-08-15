@@ -12,7 +12,10 @@
   }
   h1{
     text-align: center;
+
     font-size: 6vw;
+
+
   }
   #suplemento{
     position: relative;
@@ -114,7 +117,7 @@
     padding: 6px 10px ;
     border: #00d9ff solid 8px;
     border-radius: 16px;
-    margin-left: 24px;
+    margin-left: 26px;
     
 
     box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
@@ -225,11 +228,12 @@
   }
   footer p{
     display: flex;
-    width: 50%;
+    justify-content: end;
+    align-self: flex-end;
+    font-size: 2em;
     color: #fff;
-    position: relative;
-    bottom: 30px;
-   
+    width: 15vw;
+
   }
   #rodape{
     font-size: 10px;
@@ -506,8 +510,13 @@
 
   }
   footer p{
-    
-    font-size: 1px;
+
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    padding-top: 50px;
+    font-size: 2em;
+
     color: #fff;
   }
 
