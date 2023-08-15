@@ -291,7 +291,7 @@
   }
   h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
   }
   #suplemento{
     position: relative;
@@ -563,7 +563,7 @@
   }
   h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
   }
   #suplemento{
     position: relative;
@@ -763,7 +763,7 @@
     justify-content: end;
     align-self: flex-end;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 2em;
     color: #fff;
   }
 
