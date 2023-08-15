@@ -222,9 +222,10 @@
     align-self: flex-end;
     font-size: 1em;
     color: #fff;
+    width: 2vw;
   }
   #rodape{
-    font-size: 2em;
+    font-size: 1em;
   }
   
   #logo{
@@ -480,6 +481,9 @@
   }
   aside{
     display: none;
+  }
+  #rodape{
+    font-size: 1em;
   }
   footer{
     background-color: #31202b;
