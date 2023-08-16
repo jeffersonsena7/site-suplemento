@@ -44,7 +44,7 @@
   }
   .but{
   background: flex;
-  width: 100px;
+  width: 23vw;
   outline: none;
   padding: 8px 0px 8px 0px;
   margin: 3px;
@@ -79,7 +79,7 @@
   }
   .borda{
     position: relative;
-    width: 95%;
+    width: 92%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -116,10 +116,10 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 2em;
+    font-size: 25px;
     color: #fff;
-    width: 15vw;
-    
+    width: 100%;
+    margin-top: 30px;
   }
   #rodape{
     display: flex;
@@ -266,7 +266,7 @@
   }
   .borda{
     position: relative;
-    width: 95%;
+    width: 92%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -303,9 +303,10 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 2em;
+    font-size: 25px;
     color: #fff;
-    width: 15vw;
+    width: 100%;
+    margin-top: 30px;
     
   }
   #rodape{
@@ -454,7 +455,7 @@
   }
   .borda{
     position: relative;
-    width: 95%;
+    width: 92%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -491,10 +492,10 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 2em;
+    font-size: 25px;
     color: #fff;
-    width: 15vw;
-    
+    width: 100%;
+    margin-top: 30px;
   }
   #rodape{
     display: flex;

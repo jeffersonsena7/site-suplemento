@@ -79,7 +79,7 @@
   }
   .borda{
     position: relative;
-    width: 95%;
+    width: 92%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -112,15 +112,6 @@
     bottom: 0px;
    
   }
-  footer p{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    font-size: 2em;
-    color: #fff;
-    width: 15vw;
-    
-  }
   #rodape{
     display: flex;
     font-size: 10px;
@@ -132,12 +123,35 @@
     right: 0px;
     position: absolute;
   }
+  footer{
+    background-color: #31202b;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+    
+
+  }
+  footer p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 40px;
+    font-size: 2em;
+    color: #fff;
+    height: 100%;
+    margin-top: 40px;
+    width: 100%;
+  }
 
   
   #logo{
     display: flex;
     position: absolute;
-    
+    top: 0px;
   }
 #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
@@ -266,7 +280,7 @@
   }
   .borda{
     position: relative;
-    width: 950%;
+    width: 92%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -289,25 +303,6 @@
     border-radius: 8px;
     animation: AnimarBorda 8s linear infinite;
   }
-  footer{
-    display: flex;
-    background-color: #31202b;
-    width: 100%;
-    height: 16vh;    
-    justify-content: center;
-    position: absolute;
-    bottom: 0px;
-   
-  }
-  footer p{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    font-size: 2em;
-    color: #fff;
-    width: 15vw;
-    
-  }
   #rodape{
     display: flex;
     font-size: 10px;
@@ -319,12 +314,36 @@
     right: 0px;
     position: absolute;
   }
+  footer{
+    background-color: #31202b;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+    
+
+  }
+  footer p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 40px;
+    font-size: 2em;
+    color: #fff;
+    height: 100%;
+    margin-top: 40px;
+  }
+
   
   #logo{
     display: flex;
     position: absolute;
-    
+    top: 0px;
   }
+  
   #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
     width: 50px;
@@ -453,7 +472,7 @@
   }
   .borda{
     position: relative;
-    width: 95%;
+    width: 92%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -492,7 +511,7 @@
     align-self: center;
     font-size: 2em;
     color: #fff;
-    width: 15vw;
+    width: 100%;
     
   }
   #rodape{
