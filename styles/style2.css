@@ -207,7 +207,7 @@
     justify-content: center;
     align-self: center;
     padding-bottom: 40px;
-    font-size: 20vw;
+    font-size: 2em;
     color: #fff;
     height: 100%;
   }
@@ -383,7 +383,7 @@
     justify-content: end;
     align-self: flex-end;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 2em;
     color: #fff;
   }
 
@@ -559,7 +559,7 @@
     justify-content: end;
     align-self: flex-end;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 2em;
     color: #fff;
   }
 
