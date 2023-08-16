@@ -12,7 +12,7 @@
   }
   h1{
     text-align: center;
-    font-size: 2em;
+    font-size: 6vw;
   }
   div p{
     background-color: #fff;
@@ -94,8 +94,8 @@
     content: "";
     position: absolute;
     z-index: -1;
-    width: calc(100% + 32px);
-    height: calc(100% + 32px);
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
     background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
     #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
     background-size: 300%;
@@ -184,7 +184,7 @@
   }
   h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 6vw;
   } 
   div p{
     background-color: #fff;
@@ -254,7 +254,7 @@
   }
   .borda{
     position: relative;
-    width: 97%;
+    width: 95%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -269,8 +269,8 @@
     content: "";
     position: absolute;
     z-index: -1;
-    width: calc(100% + 32px);
-    height: calc(100% + 32px);
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
     background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
     #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
     background-size: 300%;
@@ -360,7 +360,7 @@
   }
   h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 6vw;
   }
   div p{
     background-color: #fff;
@@ -430,7 +430,7 @@
   }
   .borda{
     position: relative;
-    width: 97%;
+    width: 95%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -445,8 +445,8 @@
     content: "";
     position: absolute;
     z-index: -1;
-    width: calc(100% + 32px);
-    height: calc(100% + 32px);
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
     background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
     #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
     background-size: 300%;

@@ -228,16 +228,20 @@
   }
   footer p{
     display: flex;
-    justify-content: end;
-    align-self: flex-end;
+    justify-content: center;
+    align-self: center;
     font-size: 2em;
     color: #fff;
     width: 15vw;
-
+    
   }
   #rodape{
+    display: flex;
     font-size: 10px;
-    
+    margin-bottom: 40px;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
   }
   
   #logo{
