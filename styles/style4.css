@@ -103,22 +103,34 @@
     animation: AnimarBorda 8s linear infinite;
   }
   footer{
+    display: flex;
     background-color: #31202b;
     width: 100%;
-    padding: 30px;
-    display: flex;
+    height: 16vh;    
     justify-content: center;
-    position: fixed;
-    top: 470px;
-
+    position: absolute;
+    bottom: 0px;
+   
   }
   footer p{
     display: flex;
-    justify-content: end;
-    align-self: flex-end;
-    padding-top: 50px;
-    font-size: 30px;
+    justify-content: center;
+    align-self: center;
+    font-size: 2em;
     color: #fff;
+    width: 15vw;
+    
+  }
+  #rodape{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 50px;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    left: 0px;
+    right: 0px;
+    position: absolute;
   }
 
   
@@ -278,22 +290,34 @@
     animation: AnimarBorda 8s linear infinite;
   }
   footer{
+    display: flex;
     background-color: #31202b;
     width: 100%;
-    padding: 30px;
-    display: flex;
+    height: 16vh;    
     justify-content: center;
-    position: fixed;
-    top: 470px;
-
+    position: absolute;
+    bottom: 0px;
+   
   }
   footer p{
     display: flex;
-    justify-content: end;
-    align-self: flex-end;
-    padding-top: 50px;
-    font-size: 30px;
+    justify-content: center;
+    align-self: center;
+    font-size: 2em;
     color: #fff;
+    width: 15vw;
+    
+  }
+  #rodape{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 50px;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    left: 0px;
+    right: 0px;
+    position: absolute;
   }
 
   
@@ -454,22 +478,34 @@
     animation: AnimarBorda 8s linear infinite;
   }
   footer{
+    display: flex;
     background-color: #31202b;
     width: 100%;
-    padding: 30px;
-    display: flex;
+    height: 16vh;    
     justify-content: center;
-    position: fixed;
-    top: 470px;
-
+    position: absolute;
+    bottom: 0px;
+   
   }
   footer p{
     display: flex;
-    justify-content: end;
-    align-self: flex-end;
-    padding-top: 50px;
-    font-size: 30px;
+    justify-content: center;
+    align-self: center;
+    font-size: 2em;
     color: #fff;
+    width: 15vw;
+    
+  }
+  #rodape{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 50px;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    left: 0px;
+    right: 0px;
+    position: absolute;
   }
 
   

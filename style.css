@@ -231,10 +231,8 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 2em;
+    font-size: 30px;
     color: #fff;
-    width: 15vw;
-    
   }
   #rodape{
     display: flex;
@@ -245,7 +243,8 @@
     align-self: center;
     left: 0px;
     right: 0px;
-    position: absolute;
+    bottom: 20px;
+    position: relative;
   }
   
   #logo{

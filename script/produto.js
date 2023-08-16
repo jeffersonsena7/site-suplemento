@@ -2,9 +2,11 @@ function abrirWhey(){
     neon2_whey.style.display == 'inline'
     neon2_cre.style.display = 'none'
     neon2_pre.style.display = 'none'
-    neon2_hip.style.display = 'none' 
+    neon2_hip.style.display = 'none'
     iframe.style.display = 'block' 
-    neon2_whey.style.display = 'none'
+    rodape.style.display = 'none'
+    logo.style.display = 'none'
+      
 }
 function abrirCre(){
   neon2_cre.style.display == 'inline'
