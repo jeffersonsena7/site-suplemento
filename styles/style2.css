@@ -182,15 +182,40 @@
     background: #00d9ff;
     text-shadow: none;
   }
-  iframe{
+  #completo{
+    display: flex;
+  }
+  #iframe{
     display: none;
     padding: 0px;
     width: 100vw;
     height: 1000vh;
     margin-left: 0px;
     margin-bottom: 300px;
-    position: fixed;
-    
+  }
+  #iframe2{
+    display: none;
+    padding: 0px;
+    width: 100vw;
+    height: 1000vh;
+    margin-left: 0px;
+    margin-bottom: 300px;
+  }
+  #iframe3{
+    display: none;
+    padding: 0px;
+    width: 100vw;
+    height: 1000vh;
+    margin-left: 0px;
+    margin-bottom: 300px;
+  }
+  #iframe4{
+    display: none;
+    padding: 0px;
+    width: 100vw;
+    height: 1000vh;
+    margin-left: 0px;
+    margin-bottom: 300px;
   }
   #rodape{
     display: flex;
@@ -220,7 +245,7 @@
     justify-content: center;
     align-self: center;
     padding-bottom: 40px;
-    font-size: 1em;
+    font-size: 25px;
     color: #fff;
     height: 100%;
     margin-top: 40px;
@@ -407,7 +432,7 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 1em;
+    font-size: 25px;
     color: #fff;
     width: 100%;
     
@@ -583,7 +608,7 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     width: 100%;
     
