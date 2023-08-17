@@ -7,15 +7,13 @@
   }
 
   body{
-    height: 150px;
+    height: 100px;
     background-color: #808080c4;
   }
   h1{
     text-align: center;
 
     font-size: 6vw;
-
-
   }
   #suplemento{
     position: relative;
@@ -217,48 +215,54 @@
   aside{
     display: none;
   }
-  footer{
-    display: flex;
-    background-color: #31202b;
-    width: 100%;
-    height: 20vh;    
-    justify-content: center;
-    position: absolute;
-  
-   
-  }
-  footer p{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    font-size: 30px;
-    color: #fff;
-  }
   #rodape{
     display: flex;
+    text-align: center;
     font-size: 25px;
     margin-bottom: 50px;
     flex-flow: column;
     justify-content: center;
     align-self: center;
-    left: 10px;
-    right: 0px;
-    top: 40px;
+    padding-top: 30px;
+    position: absolute;
+  }
+  footer{
+    display: flex;
+    background-color: #31202b;
+    width: 100%;
+    margin-top: 22px;
+    height: 100%;    
+    justify-content: center; 
     position: relative;
+    top: 18vh;
+    padding-top: 10px;
+  
+  }
+  footer p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 25px;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin-top: 90px;
+    
   }
   
   #logo{
     display: flex;
     position: absolute;
-    top:10px;
+    
   }
   #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
     width: 50px;
-    margin-top: 0px;
-    padding: 0px;
+    padding: 10px;
     border-radius: 50%;
     position: relative;
+    bottom: 8px;
+  
   }
   #modeloLogo1:hover{
     bottom: 20px;
@@ -306,7 +310,7 @@
   }
 
   body{
-    height: 280px;
+    height: 70px;
     background-color: #808080c4;
   }
   h1{
@@ -506,46 +510,48 @@
     display: none;
   }
   #rodape{
-    
-    
-    width: 100%;
-    font-size: 20px;
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 30px;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
   }
   footer{
     background-color: #31202b;
     width: 100%;
-    height: 32vh;
-    bottom: 60px;
-    padding-bottom: 50px;
+    height: 100%;
+    padding: 5px;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
     position: relative;
-   
-
+    top: 18px;
   }
   footer p{
-
     display: flex;
     justify-content: center;
     align-self: center;
-    padding-top: 50px;
-    font-size: 2em;
-
+    padding-bottom: 3vh;
+    font-size: 25px;
     color: #fff;
+    height: 100%;
+    margin-top: 60px;
   }
 
   
   #logo{
     display: flex;
     position: absolute;
-    top: 20px;
   }
-#modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
+  #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
     width: 50px;
     padding: 10px;
     border-radius: 50%;
     position: relative;
+    bottom: 10px;
   }
   #modeloLogo1:hover{
     bottom: 20px;
@@ -669,7 +675,7 @@
     box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
     text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
   }
-  } 
+   
   .whey{
     display: flex;
     width: 16.4vw;
@@ -784,26 +790,45 @@
   aside{
     display: none;
   }
+  #rodape{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 50px;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+  }
   footer{
+    display: flex;
     background-color: #31202b;
     width: 100%;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-
+    margin-top: 22px;
+    height: 100%;    
+    justify-content: center; 
+    position: relative;
+    top: -50px;
+    
+  
   }
   footer p{
-
-    font-size: 1px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 25px;
     color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 60px;
   }
   #logo{
     display: flex;
     position: absolute;
     
   }
-#modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
+  #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
     width: 50px;
     padding: 10px;
@@ -830,7 +855,7 @@
     bottom: 20px;
     padding: 1px;
   }
-
+}
 
 /*crianndo a animação*/
 @keyframes AnimarBorda {
