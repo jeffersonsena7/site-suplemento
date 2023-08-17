@@ -224,7 +224,7 @@
     height: 16vh;    
     justify-content: center;
     position: absolute;
-    top: 0px;
+  
    
   }
   footer p{
@@ -236,14 +236,14 @@
   }
   #rodape{
     display: flex;
-    font-size: 10px;
+    font-size: 25px;
     margin-bottom: 50px;
     flex-flow: column;
     justify-content: center;
     align-self: center;
-    left: 65px;
+    left: 10px;
     right: 0px;
-    top: 35px;
+    top: 50px;
     position: relative;
   }
   
