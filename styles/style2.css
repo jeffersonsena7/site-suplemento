@@ -232,13 +232,15 @@
   footer{
     background-color: #31202b;
     width: 100%;
-    height: 118px;
+    height: 104px;
     padding: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 36px;
+    margin-top: 0px;
     position: relative;
-    top: 50px;
+    top: 100px;
+    
+
   }
   footer p{
     display: flex;
@@ -415,7 +417,7 @@
   #rodape{
     display: flex;
     font-size: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     flex-flow: column;
     justify-content: center;
     align-self: center;
@@ -427,11 +429,13 @@
     display: flex;
     background-color: #31202b;
     width: 100%;
-    height: 15vh;    
+    margin-top: 32px;
+    height: 23vh;    
     justify-content: center;
-    position: absolute;
-    bottom: 10px;
-    bottom: 0px;
+    position: relative;
+    top: 0px;
+    
+  
   }
   footer p{
     display: flex;
@@ -441,7 +445,7 @@
     color: #fff;
     width: 100%;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   
   #logo{
