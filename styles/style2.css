@@ -232,13 +232,13 @@
   footer{
     background-color: #31202b;
     width: 100%;
-    height: 104px;
+    height: 100%;
     padding: 30px;
     display: flex;
     justify-content: center;
     margin-top: 0px;
     position: relative;
-    top: 100px;
+    top: 120px;
     
 
   }
@@ -313,6 +313,7 @@
   }
 
   body{
+    height: 100px;
     background-color: #808080c4;
   }
   h1{
@@ -370,6 +371,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    bottom: 30px;
   } 
   .whey{
     font-size: 2.2vw;
@@ -430,10 +433,10 @@
     background-color: #31202b;
     width: 100%;
     margin-top: 22px;
-    height: 23vh;    
+    height: 100%;    
     justify-content: center; 
     position: relative;
-    top: 0px;
+    top: -50px;
     
   
   }
@@ -445,13 +448,13 @@
     color: #fff;
     width: 100%;
     padding: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   
   #logo{
     display: flex;
     position: absolute;
-    bottom: 4px;
+    
   }
   #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
