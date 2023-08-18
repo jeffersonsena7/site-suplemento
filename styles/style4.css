@@ -102,6 +102,17 @@
     border-radius: 8px;
     animation: AnimarBorda 8s linear infinite;
   }
+  #contato{
+    text-align: center;
+    margin: 50px;
+    padding: 40px 10px;
+    border: 10px solid #31202b;
+    width: 75vw; 
+  }
+  .dados_contato{
+    margin: 1px;
+    width: 100%;
+  }
   footer{
     display: flex;
     background-color: #31202b;
@@ -289,37 +300,48 @@
     border-radius: 8px;
     animation: AnimarBorda 8s linear infinite;
   }
+  #contato{
+    text-align: center;
+    margin: 50px;
+    padding: 40px 10px;
+    border: 10px solid #31202b;
+    width: 75vw; 
+  }
+  .dados_contato{
+    margin: 1px;
+    width: 100%;
+  }
 
-#rodape{
-  display: flex;
-  font-size: 10px;
-  margin-bottom: 10px;
-  flex-flow: column;
-  justify-content: center;
-  align-self: center;
-  position: absolute;
-}
-footer{
-  background-color: #31202b;
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0px;
-  position: relative;
-  top: 90px;
-}
-footer p{
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  padding-bottom: 3vh;
-  font-size: 25px;
-  color: #fff;
-  height: 100%;
-  margin-top: 60px;
-}
+  #rodape{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 10px;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+  }
+  footer{
+    background-color: #31202b;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    position: relative;
+    top: 90px;
+  }
+  footer p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 3vh;
+    font-size: 25px;
+    color: #fff;
+    height: 100%;
+    margin-top: 60px;
+  }
   
   #logo{
     display: flex;
@@ -476,6 +498,17 @@ footer p{
     background-size: 300%;
     border-radius: 8px;
     animation: AnimarBorda 8s linear infinite;
+  }
+  #contato{
+    text-align: center;
+    margin: 50px;
+    padding: 40px 10px;
+    border: 10px solid #31202b;
+    width: 75vw; 
+  }
+  .dados_contato{
+    margin: 1px;
+    width: 100%;
   }
   footer{
     display: flex;

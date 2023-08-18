@@ -22,6 +22,20 @@
     display: flex;
     padding-top: 30px;
   }
+  div img{
+    width: 100%;
+  }
+  div h2{
+    text-align: center;
+    font-size: 8vw;
+    padding: 10px;
+  }
+  .dados_empresa{
+    font-style: italic;
+  }
+  #empresa{
+    display: flex;
+  }
   #itens{
     display: flex;
     padding: 0px;
@@ -121,7 +135,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 480px;
+    top: 40px;
   }
   footer p{
     display: flex;
@@ -194,7 +208,7 @@
   }
 
   body{
-    background-color: #808080c4;
+    background-color: #fff;
   }
   h1{
     text-align: center;
@@ -205,6 +219,20 @@
     padding: 0px;
   }
   ul{
+    display: flex;
+  }
+  div img{
+    width: 100%;
+  }
+  div h2{
+    text-align: center;
+    font-size: 8vw;
+    padding: 10px;
+  }
+  .dados_empresa{
+    font-style: italic;
+  }
+  #empresa{
     display: flex;
   }
   #itens{
@@ -397,6 +425,20 @@
     padding: 0px;
   }
   ul{
+    display: flex;
+  }
+  div img{
+    width: 100%;
+  }
+  div h2{
+    text-align: center;
+    font-size: 8vw;
+    padding: 10px;
+  }
+  .dados_empresa{
+    font-style: italic;
+  }
+  #empresa{
     display: flex;
   }
   #itens{
