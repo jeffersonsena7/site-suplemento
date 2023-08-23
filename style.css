@@ -311,35 +311,31 @@
   }
 
   body{
-    height: 100%;
-    background-color: #808080c4;
+    background-color: #fff;
   }
   h1{
     text-align: center;
-    font-size: 2em;
+    font-size: 5vw;
   }
   h2{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 2vh;
+    font-size: 6vw;
   }
   #suplemento{
     position: relative;
     z-index: -7;
     padding-top: 28px;
-    width: 10vw;
-    height: 5vh;
+    width: 100vw;
+    height: 50vh;
     
-  }
-  div p{
-    background-color: #fff;
-    padding: 10px;
   }
   ul{
     display: flex;
   }
   #itens{
     display: flex;
-    padding: 0px;
+    padding-top: 1vh;
     flex-direction: column;
     align-items: center;
   }
@@ -372,11 +368,12 @@
     
   }
   .but{
+  font-size: 3vw;
   background: flex;
-  width: 100px;
+  width: 18vw;
   outline: none;
-  padding: 8px 0px 8px 0px;
-  margin: 3px;
+  padding: 2vh;
+  margin-right: 4vw;
   border-radius: 20px;
   list-style: none;
   cursor: pointer;
@@ -475,8 +472,8 @@
   }
   .borda{
     position: relative;
-    width: 96%;
-    height: 50px;
+    width: 96vw;
+    height: 10vh;
     color: #fff;
     background: #202020;
     display: flex;
@@ -490,8 +487,8 @@
     content: "";
     position: absolute;
     z-index: -1;
-    width: calc(100% + 30px);
-    height: calc(100% + 30px);
+    width: calc(100% + 4vw);
+    height: calc(100% + 4vw);
     background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
     #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
     background-size: 300%;
@@ -512,9 +509,9 @@
   }
   #rodape{
     display: flex;
-    font-size: 25px;
-    padding-top: 30px;
-    margin-bottom: 50px;
+    font-size: 3vw;
+    padding-top: 15vh;
+    margin-bottom: 3vh;
     flex-flow: column;
     justify-content: center;
     align-self: center;
@@ -523,13 +520,13 @@
   footer{
     background-color: #31202b;
     width: 100%;
-    height: 40vh;
-    padding: 40px;
+    height: 100%;
+    padding: 16vh;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 4vh;
     position: relative;
-    top: 20px;
+    top: 15vh;
     
   }
   footer p{
@@ -537,10 +534,10 @@
     justify-content: center;
     align-self: center;
     padding-bottom: 3vh;
-    font-size: 25px;
+    font-size: 25vw;
     color: #fff;
-    height: 100%;
-    margin-top: 40px;
+    height: 10vh;
+    margin-top: 4vh;
   }
 
   
@@ -595,7 +592,7 @@
   
 /*para computador*/
 
-@media screen and (min-width:901px) and (max-width:1900px) {
+@media screen and (min-width:900px) and (max-width:1900px) {
   *{
     padding: 0px;
     margin: 0px;
@@ -603,31 +600,31 @@
   }
 
   body{
-    
     background-color: #fff;
   }
   h1{
     text-align: center;
-    font-size: 2em;
+    font-size: 5vw;
+  }
+  h2{
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 6vw;
   }
   #suplemento{
     position: relative;
     z-index: -7;
     padding-top: 28px;
     width: 100vw;
-    height: 250px;
+    height: 45vh;
     
-  }
-  div p{
-    background-color: #fff;
-    padding: 10px;
   }
   ul{
     display: flex;
   }
   #itens{
     display: flex;
-    padding: 0px;
+    padding-top: 1vh;
     flex-direction: column;
     align-items: center;
   }
@@ -660,11 +657,12 @@
     
   }
   .but{
+  font-size: 3vw;
   background: flex;
-  width: 100px;
+  width: 18vw;
   outline: none;
-  padding: 8px 0px 8px 0px;
-  margin: 3px;
+  padding: 2vh;
+  margin-right: 4vw;
   border-radius: 20px;
   list-style: none;
   cursor: pointer;
@@ -681,6 +679,7 @@
   }
    
   .whey{
+    font-size: 2.2vw;
     display: flex;
     width: 16.4vw;
     padding: 0px;
@@ -689,6 +688,8 @@
     top: 20px;
     
   }
+   
+     
   .neon2{
     font-size: 20px;
     font-weight: 700px;
@@ -699,7 +700,7 @@
     padding: 6px 10px ;
     border: #00d9ff solid 8px;
     border-radius: 16px;
-    margin-left: 20px;
+    margin-left: 24px;
     margin-top: 0px;
 
     box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
@@ -752,15 +753,16 @@
     text-shadow: none;
   }
   #lista{
-    display: none;
+    display: flex;
     width: 100px;
+    
     padding-bottom: 10px;
     border-radius: 10px;
   }
   .borda{
     position: relative;
-    width: 96%;
-    height: 50px;
+    width: 96vw;
+    height: 10vh;
     color: #fff;
     background: #202020;
     display: flex;
@@ -768,14 +770,14 @@
     align-items: center;
     border-radius: 3px;
     top: 15px;
-    left: 14px;
+    left: 2vw;
   }
   .borda::before, .borda::after{
     content: "";
     position: absolute;
     z-index: -1;
-    width: calc(100% + 30px);
-    height: calc(100% + 30px);
+    width: calc(100% + 4vw);
+    height: calc(100% + 3vw);
     background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
     #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
     background-size: 300%;
@@ -796,41 +798,41 @@
   }
   #rodape{
     display: flex;
-    font-size: 10px;
-    margin-bottom: 50px;
+    font-size: 3vw;
+    padding-top: 15vh;
+    margin-bottom: 10vh;
     flex-flow: column;
     justify-content: center;
     align-self: center;
-    left: 0px;
-    right: 0px;
     position: absolute;
   }
   footer{
-    display: flex;
     background-color: #31202b;
     width: 100%;
-    margin-top: 22px;
-    height: 100%;    
-    justify-content: center; 
+    height: 100%;
+    padding: 6vh;
+    padding-bottom: 10vh;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
     position: relative;
-    top: -50px;
     
-  
   }
   footer p{
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 25px;
+    padding-bottom: 3vh;
+    font-size: 25vw;
     color: #fff;
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 60px;
+    height: 10vh;
+    margin-top: 3vh;
   }
+
+  
   #logo{
     display: flex;
     position: absolute;
-    
   }
   #modeloLogo1, #modeloLogo2, #modeloLogo3, #modeloLogo4, #modeloLogo5{
     display: fixed;
@@ -838,6 +840,7 @@
     padding: 10px;
     border-radius: 50%;
     position: relative;
+    bottom: 40px;
   }
   #modeloLogo1:hover{
     bottom: 20px;
