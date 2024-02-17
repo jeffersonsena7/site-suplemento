@@ -510,22 +510,20 @@
   }
 
   body{
-    background-color: #fff;
+    height: 100px;
+    background-color: #808080c4;
   }
   h1{
     text-align: center;
-    font-size: 6vw;
-  }
-  div p{
-    background-color: #fff;
-    padding: 10px;
-  }
+    font-size: 5vw;
+  } 
+  
   ul{
     display: flex;
   }
   #itens{
     display: flex;
-    padding: 0px;
+    padding-top: 1vh;
     flex-direction: column;
     align-items: center;
   }
@@ -543,31 +541,37 @@
     box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
     text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
   }
-  .but.lin:nth-last-of-type(1){
-    
-  }
   .but{
-  background: flex;
-  width: 180px;
-  outline: none;
-  padding: 8px 0px 8px 0px;
-  margin: 35px 10px ;
-  border-radius: 20px;
-  list-style: none;
-  cursor: pointer;
-
-  transition: box-shadow 0.1;
-  color: #202020;
-  border: 4px solid #202020;
-  }
+    font-size: 3vw;
+    margin-top: 4vh;
+    background: flex;
+    width: 18vw;
+    outline: none;
+    padding: 1vh;
+    margin-right: 4vw;
+    border-radius: 20px;
+    list-style: none;
+    cursor: pointer;
+  
+    transition: box-shadow 0.1;
+    color: #202020;
+    border: 4px solid #202020;
+    }
   .but:hover{
     border: 4px solid #00d9ff; 
     color: #00d9ff; 
     box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
     text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff; 
   }
-  
+  .botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+  } 
   .whey{
+    font-size: 2.2vw;
     display: flex;
     width: 16.4vw;
     padding: 0px;
@@ -576,15 +580,81 @@
     top: 20px;
     
   }
+  .neon2{
+    font-size: 20px;
+    font-weight: 700px;
+    width: 15vw;
+    height: 70px;
+    text-decoration: none;
+    background: #202020;
+    display: inline-block;
+    color: #00d9ff;
+    padding: 6px 10px ;
+    border: #00d9ff solid 8px;
+    border-radius: 16px;
+    margin-left: 24px;
+    margin-top: 0px;
+
+    box-shadow: inset 0px 0px 32px #00d9ff, 0px 0px 32px #00d9ff;
+    text-shadow: 0px 0px 8px hsl(0, 0%, 100% / 0.3), 0px 0px 32px;
+
+    position: relative;
+    top: 60px;
+    
+  }
+  /*Reflexo do botão */
+  .neon2::before{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    background: #00d9ff;
+
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  .neon2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #00d9ff;
+    opacity: 0;
+    background-color: #00d9ff;
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+
+  .neon2:hover::before, 
+  .neon2:hover::after{
+    opacity: 1;
+  }
+
+  .neon2:hover{
+    color: #31202b;
+    background: #00d9ff;
+    text-shadow: none;
+  }
+  
   #lista{
-    display: none;
+    display: flex;
     width: 100px;
+    
     padding-bottom: 10px;
     border-radius: 10px;
   }
   .borda{
     position: relative;
-    width: 92%;
+    width: 96%;
     height: 50px;
     color: #fff;
     background: #202020;
@@ -607,35 +677,37 @@
     border-radius: 8px;
     animation: AnimarBorda 8s linear infinite;
   }
-  footer{
+  #rodape{
     display: flex;
+    font-size: 3vw;
+    padding-top: 15vh;
+    margin-bottom: 10vh;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+  }
+  footer{
     background-color: #31202b;
     width: 100%;
-    height: 16vh;    
+    height: 100%;
+    padding: 6vh;
+    padding-bottom: 10vh;
+    margin-top: 4vh;
+    display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0px;
-   
+    position: relative;
+    
   }
   footer p{
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 25px;
+    padding-bottom: 3vh;
+    font-size: 2vw;
     color: #fff;
-    width: 100%;
-    
-  }
-  #rodape{
-    display: flex;
-    font-size: 10px;
-    margin-bottom: 50px;
-    flex-flow: column;
-    justify-content: center;
-    align-self: center;
-    left: 0px;
-    right: 0px;
-    position: absolute;
+    height: 10vh;
+    margin-top: 3vh;
   }
   
   #logo{
@@ -670,8 +742,8 @@
     bottom: 20px;
     padding: 1px;
   }
-}
 
+}
 /*crianndo a animação*/
 @keyframes AnimarBorda {
   0%{
@@ -681,6 +753,11 @@
     background-position: 300%;
   }
 }
+
+.borda::after{
+  filter: blur(50px);
+}
+
 
 .borda::after{
   filter: blur(50px);
